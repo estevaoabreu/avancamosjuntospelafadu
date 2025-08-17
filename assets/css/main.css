@@ -293,8 +293,9 @@ button {
     border-radius: 100px;
 }
 
-#intro .container-mid a .circle {
-    font-size: 0.8em;
+#intro .container-mid a .circle
+{
+    font-size: 1em;
     line-height: 5.7rem;
 
     position: relative;
@@ -302,9 +303,9 @@ button {
     display: inline-block;
     overflow: hidden;
 
-    width: 4.3rem;
-    height: 4.3rem;
-    margin-top: 1em;
+    width: 5.7rem;
+    height: 5.7rem;
+    margin-left: 1em;
 
     vertical-align: middle;
 
@@ -312,41 +313,46 @@ button {
     border-radius: 100%;
 }
 
-#intro .container-mid a .circle i {
+#intro .container-mid a .circle i
+{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 0;
 
     width: 100%;
 
     -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     text-align: center;
 }
 
-#intro .container-mid a .circle i:first-child {
-    top: -55%;
+#intro .container-mid a .circle i:first-child
+{
+    top: -50%;
 }
 
-#intro .container-mid a:hover .circle i:first-child {
-    top: 55%;
+#intro .container-mid a:hover .circle i:first-child
+{
+    top: 50%;
 
     -webkit-transition: .15s ease;
-    -o-transition: .15s ease;
-    transition: .15s ease;
+         -o-transition: .15s ease;
+            transition: .15s ease;
 }
 
-#intro .container-mid a .circle i:last-child {
-    top: 55%;
+#intro .container-mid a .circle i:last-child
+{
+    top: 50%;
 }
 
-#intro .container-mid a:hover .circle i:last-child {
-    top: 155%;
+#intro .container-mid a:hover .circle i:last-child
+{
+    top: 150%;
 
     -webkit-transition: .15s ease;
-    -o-transition: .15s ease;
-    transition: .15s ease;
+         -o-transition: .15s ease;
+            transition: .15s ease;
 }
 
 #intro .animation-container {
@@ -923,7 +929,7 @@ button {
     display: inline-block;
 }
 
-#footer .social-icons li a {
+#footer .social-icons li a.instagram {
     font-size: 1.5rem;
     line-height: 5rem;
     line-height: calc(5rem - 4px);
@@ -946,7 +952,7 @@ button {
     background: none;
 }
 
-#footer .social-icons li a i {
+#footer .social-icons li a.instagram i {
     position: absolute;
     top: 50%;
     left: 0;
@@ -959,11 +965,11 @@ button {
     text-align: center;
 }
 
-#footer .social-icons li a i:first-child {
+#footer .social-icons li a.instagram i:first-child {
     top: -50%;
 }
 
-#footer .social-icons li a:hover i:first-child {
+#footer .social-icons li a.instagram:hover i:first-child {
     top: 50%;
 
     -webkit-transition: .15s ease;
@@ -971,11 +977,11 @@ button {
     transition: .15s ease;
 }
 
-#footer .social-icons li a i:last-child {
+#footer .social-icons li a.instagram i:last-child {
     top: 50%;
 }
 
-#footer .social-icons li a:hover i:last-child {
+#footer .social-icons li a.instagram:hover i:last-child {
     top: 150%;
 
     -webkit-transition: .15s ease;
