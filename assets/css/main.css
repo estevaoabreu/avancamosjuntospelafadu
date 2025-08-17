@@ -47,7 +47,7 @@ h6 {
     font-size: 1.9rem;
 }
 
-p {
+p, li {
     font-size: 1.8rem;
     line-height: 1.7em;
 }
