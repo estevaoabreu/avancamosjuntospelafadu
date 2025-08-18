@@ -262,7 +262,6 @@ button {
 }
 
 .corner {
-    text-shadow: 0px 0px 15px black;
     position: absolute;
     text-align: left;
     font-weight: 600;
