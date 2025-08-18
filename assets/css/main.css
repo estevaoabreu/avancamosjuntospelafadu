@@ -3,11 +3,11 @@ html {
 }
 
 body {
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Metropolis', sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: #fff;
-    background: #fff;
+    color: #f2eded;
+    background: #f2eded;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -20,7 +20,7 @@ h6 {
     font-family: 'Cera Pro', sans-serif;
     font-weight: bold;
     letter-spacing: .02em;
-    color: #fff;
+    color: #f2eded;
 }
 
 h1 {
@@ -47,7 +47,8 @@ h6 {
     font-size: 1.9rem;
 }
 
-p, li {
+p,
+li {
     font-size: 1.8rem;
     line-height: 1.7em;
 }
@@ -61,11 +62,11 @@ a:focus {
     transition: all 300ms ease;
     text-decoration: none;
 
-    color: #fff;
+    color: #f2eded;
 }
 
 button {
-    border: 2px solid #fff;
+    border: 2px solid #f2eded;
     background: none;
 }
 
@@ -73,7 +74,7 @@ button {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    border-color: #fff !important;
+    border-color: #f2eded !important;
     outline: none !important;
     background: none !important;
     -webkit-box-shadow: none;
@@ -103,7 +104,7 @@ button {
     width: 100%;
     height: 100%;
 
-    background: #fff;
+    background: #f2eded;
 }
 
 .preloader.hide-preloader {
@@ -260,6 +261,22 @@ button {
     text-align: center;
 }
 
+.corner {
+    position: absolute;
+    text-align: left;
+    font-weight: 600;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 3em;
+
+    font-size: 1.6rem;
+    line-height: 1.6em;
+
+    color: #f2eded;
+}
+
 #intro .container-mid {
     position: absolute;
     top: 50%;
@@ -293,8 +310,7 @@ button {
     border-radius: 100px;
 }
 
-#intro .container-mid a .circle
-{
+#intro .container-mid a .circle {
     font-size: 1em;
     line-height: 5.7rem;
 
@@ -309,12 +325,11 @@ button {
 
     vertical-align: middle;
 
-    border: 3px solid #fff;
+    border: 3px solid #f2eded;
     border-radius: 100%;
 }
 
-#intro .container-mid a .circle i
-{
+#intro .container-mid a .circle i {
     position: absolute;
     top: 50%;
     left: 0;
@@ -322,37 +337,33 @@ button {
     width: 100%;
 
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: center;
 }
 
-#intro .container-mid a .circle i:first-child
-{
+#intro .container-mid a .circle i:first-child {
     top: -50%;
 }
 
-#intro .container-mid a:hover .circle i:first-child
-{
+#intro .container-mid a:hover .circle i:first-child {
     top: 50%;
 
     -webkit-transition: .15s ease;
-         -o-transition: .15s ease;
-            transition: .15s ease;
+    -o-transition: .15s ease;
+    transition: .15s ease;
 }
 
-#intro .container-mid a .circle i:last-child
-{
+#intro .container-mid a .circle i:last-child {
     top: 50%;
 }
 
-#intro .container-mid a:hover .circle i:last-child
-{
+#intro .container-mid a:hover .circle i:last-child {
     top: 150%;
 
     -webkit-transition: .15s ease;
-         -o-transition: .15s ease;
-            transition: .15s ease;
+    -o-transition: .15s ease;
+    transition: .15s ease;
 }
 
 #intro .animation-container {
@@ -490,7 +501,7 @@ button {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    color: #fff;
+    color: #f2eded;
 }
 
 #service .services-list li .well {
@@ -509,6 +520,20 @@ button {
     background-color: rgba(0, 0, 0, 0);
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+#video {
+    margin-top: 20vh;
+    overflow: visible;
+}
+
+video {
+    position: relative;
+    width: 135%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: auto;
+    margin: 0;
 }
 
 #work .showcase .item {
@@ -544,8 +569,8 @@ button {
     -o-transition: .25s ease;
     transition: .25s ease;
 
-    color: #fff;
-    background: #fff;
+    color: #f2eded;
+    background: #f2eded;
     background: -webkit-linear-gradient(left, rgba(143, 151, 219, 1) 1%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(1%, rgba(143, 151, 219, 1)), to(rgba(0, 0, 0, 0)));
     background: -o-linear-gradient(left, rgba(143, 151, 219, 1) 1%, rgba(0, 0, 0, 0) 100%);
@@ -580,7 +605,7 @@ button {
     transform: translateX(4vh);
 
     opacity: 0;
-    color: #fff;
+    color: #f2eded;
 }
 
 #work .showcase .item:hover .info .container-mid h5 {
@@ -632,7 +657,7 @@ button {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    background: #fff;
+    background: #f2eded;
 }
 
 #work .showcase .item .background-image {
@@ -669,7 +694,7 @@ button {
     -ms-transform: translate(50%, -50%);
     transform: translate(50%, -50%);
 
-    color: #fff;
+    color: #f2eded;
     outline: none !important;
     background: none;
 }
@@ -728,9 +753,9 @@ button {
     -o-transition: .3s ease;
     transition: .3s ease;
 
-    color: #fff;
+    color: #f2eded;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #f2eded;
     border-radius: 0;
     outline: none !important;
     background: none;
@@ -758,22 +783,22 @@ button {
 
 #contact #contact-form input::-webkit-input-placeholder,
 #contact #contact-form textarea::-webkit-input-placeholder {
-    color: #fff;
+    color: #f2eded;
 }
 
 #contact #contact-form input:-ms-input-placeholder,
 #contact #contact-form textarea:-ms-input-placeholder {
-    color: #fff;
+    color: #f2eded;
 }
 
 #contact #contact-form input::-ms-input-placeholder,
 #contact #contact-form textarea::-ms-input-placeholder {
-    color: #fff;
+    color: #f2eded;
 }
 
 #contact #contact-form input::placeholder,
 #contact #contact-form textarea::placeholder {
-    color: #fff;
+    color: #f2eded;
 }
 
 #contact #contact-form input.error,
@@ -831,7 +856,7 @@ button {
 
     vertical-align: middle;
 
-    border: 2px solid #fff;
+    border: 2px solid #f2eded;
     border-radius: 100%;
 }
 
@@ -897,7 +922,7 @@ button {
     pointer-events: none;
 
     opacity: 0;
-    color: #fff;
+    color: #f2eded;
     border: 2px solid limegreen;
     border-radius: 0;
     background: none;
@@ -930,9 +955,7 @@ button {
 }
 
 #footer .social-icons li a.instagram {
-    font-size: 1.5rem;
-    line-height: 5rem;
-    line-height: calc(5rem - 4px);
+    font-size: 2rem;
 
     position: relative;
 
@@ -946,15 +969,13 @@ button {
 
     text-align: center;
 
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 100%;
+    color: #f2eded;
     background: none;
 }
 
 #footer .social-icons li a.instagram i {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 0;
 
     width: 100%;
@@ -965,35 +986,15 @@ button {
     text-align: center;
 }
 
-#footer .social-icons li a.instagram i:first-child {
-    top: -50%;
-}
-
-#footer .social-icons li a.instagram:hover i:first-child {
-    top: 50%;
-
-    -webkit-transition: .15s ease;
-    -o-transition: .15s ease;
-    transition: .15s ease;
-}
-
-#footer .social-icons li a.instagram i:last-child {
-    top: 50%;
-}
-
-#footer .social-icons li a.instagram:hover i:last-child {
-    top: 150%;
-
-    -webkit-transition: .15s ease;
-    -o-transition: .15s ease;
-    transition: .15s ease;
-}
-
 #footer p {
     margin-top: 2em;
 }
 
 #footer p a {
-    color: #fff;
+    color: #f2eded;
     border-bottom: 1px solid #eee;
+}
+
+.footer-text {
+    font-size: 0.8em;
 }
