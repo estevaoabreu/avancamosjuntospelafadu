@@ -452,7 +452,7 @@ button {
     margin:0;
 }
 
-.programa-download-container {
+.button-container {
     background-color: #f2eded;
     border-radius: 20px;
     position: relative;
@@ -775,8 +775,7 @@ video {
 }
 
 #contact #contact-form input,
-#contact #contact-form textarea,
-#contact #contact-form button {
+#contact #contact-form textarea {
     font-size: 2rem;
 
     margin-bottom: 3.4vh;
@@ -856,83 +855,22 @@ video {
     padding-top: 1em;
 }
 
+#contact #contact-form .button-container {
+    margin-top: 0;
+}
+
 #contact #contact-form button {
-    line-height: 3.2em;
-
-    position: relative;
-
-    display: inline-block;
-    overflow: hidden;
-
-    width: auto;
-    height: 3.2em;
-    margin-bottom: 0;
-    padding: 0;
-
-    border: none !important;
-    background: none !important;
-}
-
-#contact #contact-form button .circle {
-    font-size: 1em;
-    line-height: 5rem;
-
-    position: relative;
-
-    display: inline-block;
-    overflow: hidden;
-
-    width: 5rem;
-    height: 5rem;
-    margin-left: 1em;
-
-    vertical-align: middle;
-
-    border: 2px solid #f2eded;
-    border-radius: 100%;
-}
-
-#contact #contact-form button .circle i {
-    position: absolute;
-    top: 50%;
-    left: 0;
-
-    width: 100%;
-
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-#contact #contact-form button .circle i:first-child {
-    -webkit-transform: translate(-100%, -50%);
-    -ms-transform: translate(-100%, -50%);
-    transform: translate(-100%, -50%);
-}
-
-#contact #contact-form button:hover .circle i:first-child {
-    -webkit-transition: .15s ease;
-    -o-transition: .15s ease;
-    transition: .15s ease;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-}
-
-#contact #contact-form button .circle i:last-child {
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-}
-
-#contact #contact-form button:hover .circle i:last-child {
-    -webkit-transition: .15s ease;
-    -o-transition: .15s ease;
-    transition: .15s ease;
-    -webkit-transform: translate(100%, -50%);
-    -ms-transform: translate(100%, -50%);
-    transform: translate(100%, -50%);
+    text-align: right;
+    font-size: 1.4em;
+    font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+    background-image: url('../img/background.jpg');
+    background-position: center center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: 0;
+    box-shadow: none;
 }
 
 

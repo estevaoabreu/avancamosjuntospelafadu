@@ -76,9 +76,11 @@ jQuery(document).ready(function ($) {
                 if (response.ok) {
                     form.addClass("success");
                     form.find('input, textarea').val('');
+                    document.querySelector('#contact .button-container').style.display = 'none';
 
                     setTimeout(function() {
                         form.removeClass("success");
+                        document.querySelector('#contact .button-container').style.display = 'inline-block';
                     }, 4000);
                 }
             },
